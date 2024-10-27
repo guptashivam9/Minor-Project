@@ -1,0 +1,145 @@
+.user-profile {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+     /* display: flex;
+    align-items: center ;
+    justify-content: center;  */
+  }
+  
+  .user-profile h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .user-profile form {
+    margin-top: 2rem;
+  }
+  
+  .user-profile label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .user-profile input[type="text"],
+  .user-profile input[type="date"],
+  .user-profile select {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .user-profile input[type="file"] {
+    margin-top: 0.5rem;
+  }
+  
+  .user-profile button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 2rem;
+    background-color: #5c3d86;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .user-profile button:hover {
+    background-color: #4a2f65;
+  }
+  
+  .user-profile button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .user-profile nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .user-profile nav button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #5c3d86;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .user-profile nav button:hover {
+    background-color: #4a2f65;
+  }
+  
+  .user-profile nav button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .user-profile .form-group {
+    margin-bottom: 2rem;
+  }
+  
+  .user-profile select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url( "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black' width='24' height='24'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .user-profile {
+      padding: 1rem;
+    }
+  
+    .user-profile form {
+      margin-top: 1rem;
+    }
+  
+    .user-profile label {
+      font-size: 1.1rem;
+    }
+  
+    .user-profile input[type="text"],
+    .user-profile input[type="date"],
+    .user-profile select {
+      padding: 0.5rem;
+    }
+  
+    .user-profile button {
+      padding: 0.5rem;
+      font-size: 1.1rem;
+    }
+  
+    .user-profile nav {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+    }
+
+    .user-profile nav button {
+        margin-bottom: 1rem;
+      }
+    }
+
+   

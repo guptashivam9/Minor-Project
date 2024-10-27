@@ -1,0 +1,91 @@
+.Search-filter {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px; /* Changed from 5px to 10px for a slightly rounded look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Search-filter h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.Search-filter .filter {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Search-filter label {
+    display:flex;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.Search-filter select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 4rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    appearance: menulist; /* Added to make the select component look more like a dropdown */
+}
+
+.Search-filter input[type="number"]{
+    width: 70%;
+    padding: 5px 6px;
+    margin-bottom: 50px;
+    margin-top: 1.5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1;
+    color: #333333;
+    margin-left: 10px;
+}
+
+.Search-filter input[type="text"]{
+    width: 95%;
+    padding: 10px 12px;
+    margin-bottom: 50px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.Search-filter button {
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added to create a smooth background color change when hovering */
+}
+
+.Search-filter button:hover {
+    background-color: #3e8e41;
+}
+
+.Search-filter input[type="number"]::-webkit-inner-spin-button,
+.Search-filter input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

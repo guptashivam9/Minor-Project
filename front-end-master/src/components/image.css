@@ -1,0 +1,81 @@
+.upload-container {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+ 
+}
+
+.upload-card {
+  border: 1px solid #0323c4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 80px;
+  width: 310px; /* Set width of the card */
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+ 
+}
+
+.upload-card input[type="file"] {
+  display: none;
+}
+
+.upload-card label {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #bbbbbb;
+  border-radius: 55px;
+  margin-bottom: 10px; /* Add margin between "Choose File" and image preview */
+}
+
+.upload-card label:hover {
+  background-color: #4df31a;
+}
+
+.upload-card img {
+  max-width: 200px; /* Set maximum width for the image */
+  max-height: 200px; /* Set maximum height for the image */
+  margin: 0 auto; /* Center-align the image */
+}
+
+.upload-card .image-preview {
+  text-align: center; /* Center-align content */
+  margin-bottom: 10px; /* Add margin between image preview and submit button */
+}
+
+button {
+  padding: 18px; /* Reduce button padding */
+  border-radius: 5px;
+  background-color: #c60b0b;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Make button full width */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #15af12;
+}
+.photo {
+  padding: 0.5rem;
+    font-size: 1.5rem;
+    color:#e40a0a;
+    font-weight: 0;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,30 @@
+.body{
+    font: 1.6rem helvetica;
+    box-sizing: border-box;
+    background-color: white;
+    max-width: 1000px;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    
+    background-color: #fff;
+    height: 100%;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  Toolbar {
+    background-color: #212121;
+    box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  Button {
+    margin: 0 5px;
+    text-transform: capitalize;
+  }

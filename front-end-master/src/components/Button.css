@@ -1,0 +1,62 @@
+/* Base Button Styles */
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+/* Primary Button Styles */
+.btn--primary {
+    background-color: #4b7bec;
+    color: #fff;
+    border: 2px solid #4b7bec;
+}
+
+.btn--primary:hover {
+    background-color: #3867d6;
+    border-color: #3867d6;
+}
+
+/* Outline Button Styles */
+.btn--outline {
+    background-color: transparent;
+    color: #4b7bec;
+    border: 2px solid #4b7bec;
+}
+
+.btn--outline:hover {
+    background-color: #4b7bec;
+    color: #fff;
+}
+
+/* Button Sizes */
+.btn--medium {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn--large {
+    font-size: 18px;
+    padding: 12px 24px;
+}
+
+/* Button for Mobile View */
+.btn-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Hover Effect */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

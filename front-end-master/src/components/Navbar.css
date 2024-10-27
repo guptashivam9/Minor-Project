@@ -1,0 +1,141 @@
+/* Navbar container */
+.navbar {
+    background-color: #a29daa;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Navbar container width */
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 24px;
+    z-index: 1;
+}
+
+/* Navbar logo */
+.navbar-logo {
+    color: #3d2222;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: rgb(40, 28, 19);
+    font-size: 2rem;
+}
+
+/* Mobile menu icon */
+.menu-icon {
+    display: none;
+    color: #c81d06;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Mobile menu icon display for smaller screens */
+@media screen and (max-width: 960px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 50%;
+    
+        transform: translate(-100%, 60%);
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: c=r;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background-color: #333;
+    }
+
+    .nav-menu.active {
+        background-color: #cc5555;
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        color: #4b59f7;
+        transition: all 0.3s ease;
+    }
+}
+
+/* Navigation items */
+.nav-item {
+    height: 80px;
+}
+
+/* Navigation links */
+.nav-links {
+    color: #1c1313;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+}
+
+/* Active link */
+.nav-links:hover {
+    color: #4b59f7;
+    transition: all 0.3s ease;
+}
+
+/* Styling for active link */
+.active {
+    border-bottom: 3px solid #4b59f7;
+}
+
+/* Login and Sign Up links for mobile */
+.nav-links-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .nav-links-mobile {
+        display: block;
+        text-align: center;
+        margin: 2rem auto;
+        border-radius: 4px;
+        width: 80%;
+        text-decoration: none;
+        color: #390d0d;
+        background-color: #9395b4;
+        padding: 14px 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-links-mobile:hover {
+        background-color: #535f71;
+        transition: 250ms;
+    }
+}

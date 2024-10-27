@@ -1,0 +1,89 @@
+.body{
+  font: 1.6rem helvetica;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.auth-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #9233aa;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .auth-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cb0000;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    color: #a93535;
+    justify-content: space-evenly;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #8a5151;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 10px;
+    border:lch(from color l c h);
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #101faa;
+    color: #ffffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .signup-form button:hover {
+    background-color: #d687c5;
+  }
+  
+  .btn {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 1rem;
+    background-color: #fcfcfc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .btn a {
+    color: #0e4178;
+    text-decoration: none;
+    
+  }
+  
+  .btn a:hover {
+    text-decoration: none;
+
+    color: #a6b7c8;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
